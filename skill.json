@@ -1,0 +1,40 @@
+{
+  "name": "product-review-analyzer-skill",
+  "version": "1.0.0",
+  "description": "Analyze product review text datasets to compute sentiment scores, extract positive/negative keywords, and generate actionable improvement bullet points.",
+  "author": "alphaparkinc",
+  "category": "analytics",
+  "tags": [
+    "reviews",
+    "sentiment",
+    "nlp",
+    "customer-feedback",
+    "e-commerce"
+  ],
+  "inputs": {
+    "reviews": {
+      "type": "array",
+      "description": "Array of review strings or [{rating, text}]."
+    }
+  },
+  "outputs": {
+    "sentiment_distribution": {
+      "type": "object",
+      "description": "Percentage count: positive, neutral, negative."
+    },
+    "pros": {
+      "type": "array",
+      "description": "Top positive themes detected."
+    },
+    "cons": {
+      "type": "array",
+      "description": "Top negative themes detected."
+    },
+    "actionable_feedback": {
+      "type": "array",
+      "description": "Recommendations based on cons."
+    }
+  },
+  "entrypoint": "client.py",
+  "example": "example_usage.py"
+}
