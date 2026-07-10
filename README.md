@@ -1,4 +1,4 @@
-# product-review-analyzer-skill
+# genpark-product-review-analyzer-skill
 
 > **GenPark AI Agent Skill** -- Evaluates buyer review sentiment, highlighting strengths and fixes.
 
