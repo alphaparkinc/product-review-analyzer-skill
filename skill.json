@@ -1,8 +1,8 @@
 {
   "name": "product-review-analyzer-skill",
   "version": "1.0.0",
-  "description": "Analyze product review text datasets to compute sentiment scores, extract positive/negative keywords, and generate actionable improvement bullet points.",
-  "author": "alphaparkinc",
+  "description": "GenPark AI Agent Skill - Analyze product review text datasets to compute sentiment scores, extract positive/negative keywords, and generate actionable improvement bullet points.",
+  "author": "genpark",
   "category": "analytics",
   "tags": [
     "reviews",
